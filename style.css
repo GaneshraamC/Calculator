@@ -1,0 +1,69 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+button{
+    width: 90%;
+    height: 90px;
+    border-radius: 50px;
+    border: none;
+    background-color: darkgrey;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+.container{
+    background-color: gray;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    width: 90%;
+    padding: 20px;
+    text-align: right;
+    border: none;
+    background-color: gray;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#display:hover{
+    border: none;
+    outline: none;
+    column-rule-style: hidden;
+    background-color: gray;
+}
+
+button:hover{
+    background-color: black;
+}
+
+.operatorbtn{
+    background-color: orangered;
+    color: white;
+}
+.equal{
+    
+        width: 200%;
+        height: 80%;
+        margin: 10px 10px 10px 10px;
+}
